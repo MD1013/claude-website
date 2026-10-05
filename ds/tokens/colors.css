@@ -1,0 +1,52 @@
+:root{
+/* Base palette */
+--nc-charcoal:#202020;
+--nc-charcoal-2:#2E2C29;
+--nc-black:#111111;
+--nc-taupe:#8A7B6B;
+--nc-taupe-deep:#6B5E50;
+--nc-stone:#D3C9BC;
+--nc-beige:#E8E1D8;
+--nc-cream:#F7F4EF;
+--nc-white:#FFFFFF;
+--nc-brass:#B59A68;
+--nc-brass-light:#C9B287;
+--nc-brass-deep:#8F7647;
+--nc-olive:#5E6B4E;
+--nc-brick:#9A4B3C;
+
+/* Text */
+--text-strong:var(--nc-charcoal);
+--text-body:#3B3833;
+--text-muted:var(--nc-taupe-deep);
+--text-label:var(--nc-taupe-deep);
+--text-on-dark:var(--nc-cream);
+--text-on-dark-muted:#BCB2A5;
+--text-accent-on-dark:var(--nc-brass-light);
+
+/* Surfaces */
+--surface-page:var(--nc-cream);
+--surface-alt:var(--nc-beige);
+--surface-card:var(--nc-white);
+--surface-dark:var(--nc-charcoal);
+--surface-deepest:var(--nc-black);
+--surface-overlay:rgba(17,17,17,.48);
+--surface-overlay-strong:rgba(17,17,17,.68);
+
+/* Lines */
+--border-subtle:rgba(32,32,32,.12);
+--border-default:var(--nc-stone);
+--border-strong:var(--nc-charcoal);
+--border-on-dark:rgba(247,244,239,.16);
+
+/* Accent + state */
+--accent:var(--nc-brass);
+--accent-hover:var(--nc-brass-deep);
+--rating:var(--nc-brass);
+--focus-ring:0 0 0 3px rgba(181,154,104,.45);
+--state-success:var(--nc-olive);
+--state-error:var(--nc-brick);
+
+/* Photography grade — tames saturated stock toward the warm neutral palette */
+--img-grade:saturate(.78) sepia(.08) contrast(1.02); /* @kind other */
+}
